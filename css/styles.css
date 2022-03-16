@@ -1,0 +1,183 @@
+body {
+  font-family: 'Montserrat', sans-serif;
+  text-align:center;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 900;
+}
+
+p {
+  color: #8f8f8f;
+}
+#title
+{
+  text-align: left;
+}
+.colored-section
+{
+  background-color: #ff4c68;
+  color: white;
+}
+.white-section
+{
+  background-color: white;
+}
+/* headings start */
+.big-heading {
+  font-size: 4rem;
+  line-height: 1.5;
+  color: White;
+}
+
+.section-heading {
+  font-size: 3rem;
+  line-height: 1.5;
+}
+/* headings end */
+
+/* testimonials start */
+.testimonial-text {
+  font-size: 3rem;
+  line-height: 1.5;
+}
+
+.testimonial-image {
+  border-radius: 100%;
+  width: 15%;
+}
+
+/* testimonials end */
+/* press start */
+#press {
+  padding-bottom: 3%;
+}
+
+.press-image {
+  width: 15%;
+  margin: 20px 20px 20px 15px;
+}
+
+/* press end */
+.carousel-item {
+  padding: 7% 15%;
+}
+
+/* navbar start */
+.navbar {
+  padding-bottom: 4.5rem;
+}
+
+.navbar-brand {
+  font-size: 2.5rem;
+  font-weight: bold;
+  font-family: 'Ubuntu', sans-serif;
+}
+
+.nav-item {
+  font-size: 1.5rem;
+  padding: 0 18px;
+}
+
+.nav-link {
+  padding: 1.2rem;
+  font-style: Montserrat-light;
+  font-weight: 300;
+}
+
+/* navbar end */
+/* pricing start */
+#pricing {
+  padding: 100px;
+}
+
+/* pricing end */
+.card-col {
+  padding-top: 30px;
+}
+
+.card-btn {
+  width: 100%;
+}
+
+/* download buttons */
+.download-button {
+  margin: 5% 3% 5% 0;
+}
+
+.lightbutton {
+  border: 1px solid;
+  border-color: white;
+  color: black;
+  background-color: white;
+}
+
+/* download buttons */
+/* icons start */
+.fa-solid {
+  color: #ef8172;
+  padding-bottom: 20px;
+}
+
+.fa-solid:hover {
+  color: #ff4c68;
+}
+
+/* icons end */
+/* features start */
+.feature-box {
+  padding: 5%;
+}
+
+.feature-title {
+  font-size: 1.5rem;
+}
+
+#features {
+  padding: 7% 15%;
+  position: relative;
+  z-index: 10;
+}
+
+/* features end */
+.container-fluid {
+  padding: 3% 15% 7%;
+}
+
+.ip6 {
+  transform: rotate(25deg);
+  width: 60%;
+  position: absolute;
+  right: 30%;
+}
+
+.ip6-container {
+  position: relative;
+}
+
+#cta {
+  padding: 7% 0 0 0;
+}
+
+.footer-box {
+  padding: 7% 15%;
+}
+
+.footer-fa {
+  margin: 0 1%;
+}
+
+/* media queries start*/
+@media (max-width:1200px) {
+  .ip6 {
+    position: static;
+    transform: rotate(0);
+  }
+
+  #title {
+    text-align: center;
+  }
+}
+
+/* media queries end*/
